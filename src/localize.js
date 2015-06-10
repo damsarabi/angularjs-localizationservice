@@ -15,7 +15,7 @@ angular.module('localization', [])
 
         this.languages = ['en-US'];
         this.defaultLanguage = 'en-US';
-        this.ext = 'js';
+        this.ext = 'json';
         this.baseUrl = 'i18n/';
 
         var provider = this;
