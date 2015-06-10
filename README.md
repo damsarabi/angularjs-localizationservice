@@ -36,6 +36,10 @@ I've created a sample app that uses the Resource Localization Service to provide
 
 There is a delay loading the resource file, you may need to use the filter instead of the directive on the home page. This is due to the fact that the directive is only called once per instance where a filter is re-evaluated each time the DOM is compiled.
 
+## Installation
+
+    bower install angularjs-localization-service --save-dev
+
 ## Change Log
 
 ### 0.1.2 - 09/26/2013
